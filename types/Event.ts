@@ -1,5 +1,5 @@
 export type Event = {
-    name: string;
-    once?: boolean;
-    execute: (...args: unknown[]) => Promise<void>;
-}
+  name: string;
+  once?: boolean;
+  execute: (...args: unknown[]) => Promise<void>;
+};
